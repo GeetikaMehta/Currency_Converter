@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+}
+
+h1 {
+  color: #2f7300;
+  margin-bottom: 24px;
+  font-size: 2rem;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+input, select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  min-width: 130px;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #76c893;
+  outline: none;
+  box-shadow: 0 0 5px rgba(118, 200, 147, 0.5);
+}
+
+.result {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1b1b1b;
+  background-color: #e9fbe9;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
